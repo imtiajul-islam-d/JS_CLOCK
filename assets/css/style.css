@@ -34,6 +34,25 @@ body {
   transform: translateY(-50%);
   transform-origin: 100%;
   transform: rotate(90deg);
-  transition: 0.05s;
+  transition: 0.01s;
   transition-timing-function: cubic-bezier(0.23, 2.97, 1, 1);
+}
+.second{
+  height: 3px;
+}
+.hour{
+  height: 10px;
+}
+.center{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dot{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: #000;
 }
